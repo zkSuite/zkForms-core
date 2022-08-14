@@ -28,8 +28,8 @@ describe('Generate proof test', function () {
 
     const { proof, publicSignals } = await snarkjs.groth16.fullProve(
       inputs,
-      'circuit.wasm',
-      'https://cloudflare-ipfs.com/ipfs/bafybeidf5knam5nygkqo4nvpez7zj6a7jberur2anjc4vvcvczqav5yfcq/circuit.zkey'
+      'https://dx9qacyqak197.cloudfront.net/circuit.wasm',
+      'https://dx9qacyqak197.cloudfront.net/circuit.zkey'
     );
 
     const vKey = JSON.parse(fs.readFileSync('verification_key.json'));
