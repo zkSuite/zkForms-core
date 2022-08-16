@@ -11,7 +11,7 @@ zkForms => 0xe4D3fbDeE7a1d587aA7aF5ed32F9c4BF1e16d60e
 
 ## Roadmap
 
-- [ ] Deploying on Polygon
+- [x] Deploying on Polygon
 - [ ] Using graph protocol to keep track of respondants
 - [ ] Adding support for restriction on:
   - [x] DAO member based
