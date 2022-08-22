@@ -35,6 +35,7 @@
     "circom:prod": "hardhat circom --verbose",
     "test:circuit": "./node_modules/.bin/mocha test/circuit.test.js",
     "test:proof": "./node_modules/.bin/mocha test/proof.test.js",
-    "deploy:goerli": "npx hardhat run --network goerli scripts/deploy.js"
+    "deploy:goerli": "npx hardhat run scripts/deploy.js --network goerli",
+    "deploy:mumbai": "npx hardhat run scripts/deploy.js --network matic"
   }
 }

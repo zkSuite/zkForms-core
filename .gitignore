@@ -22,3 +22,8 @@ pot18_final.ptau
 
 yarn.lock
 package-lock.json
+
+# Large files
+circuit.r1cs
+circuit.sym
+circuit.zkey
